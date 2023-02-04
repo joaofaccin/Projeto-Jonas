@@ -5,54 +5,84 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="shortcut icon" href="./src/Imagens2/icons8-tail-of-whale-64.png" type="image/x-icon" >
+        <link rel="shortcut icon" href="./src/Jubart/baleia-jonas.png" type="image/x-icon" >
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
 
 		<link rel="stylesheet" href="./src/css/reset.css">
-		<link rel="stylesheet" href="./src/css/estilos.css">
-		<link rel="stylesheet" href="./src/css/responsivo.css">
-		<title>Ateliê Jubart</title>
+		<link rel="stylesheet" href="./src/css/estilos-espaço.css">
+		<link rel="stylesheet" href="./src/css/responsivo-espaço.css">
+		<title>Espaço Jubart</title>
 	</head>
 	<body>
-		<div class="fundo-video">			
-				<img class="logo" src="./src/Imagens2/back2.jpg" alt="logo chapéu Mario" />
-		</div> 
-
-		<header class="cabecalho">
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/videos/Pexels Videos 2611250.mp4" type="video/mp4" />
+			</video>
+		</div>
+		<header class="cabecalho">			
 			<a>
-				<img class="logo" src="./src/Imagens2/icons8-tail-of-whale-64.png" alt="logo chapéu Mario" />
+				<img class="logo" src="./src/Jubart/baleia-jonas.png" alt="logo chapéu Mario" />
 			</a>
 			<nav>
 				<ul class="menu">
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="https://api.whatsapp.com/send?phone=5555984699466">Contato</a></li>
+					<!-- <li><a href="index.html">Inicio</a></li> -->
+					<li><a href="#galeria"> Galeria</a></li>
+					<li><a href="#local">Onde</a></li>
+					<li><a href="luna.html">Luna</a></li>
+					<li><a href="jonas.html">Jonas</a></li>             
 				</ul>
+				
 			</nav>
 		</header>
-		<main class="container">
-			<div class="informacoes">				
-				<!-- <img class="imagem-titulo" src="./src/Imagens2/icons8-tail-of-whale-64.png" alt="título" /> -->
-				<h1 class="titulo">Ateliê Jubart</h1>
-				<p class="descricao">Me chamo Jonas, sempre gostei de arte e no início de tudo buscava algo que sustentasse minha vida artística, porém acabei deixando de lado por um tempo para estudar.<br>
-					Minha trajetória, acabei me encantando com o universo da tattoo e na busca por uma identidade passei a me aprofundar em vários estilos, mas foi na aquarela que me destaquei. <br>
-					Mesmo tendo estudado essa técnica antes de ser tatuador, descobri que podia explorar ainda mais nas minhas tatuagens.<br>
-					Hoje, tenho diversos prêmios na minha categoria, os estudos continuam, mas agora para trazer algo mais conceitual e artístico para os meus clientes. Atualmente, faço parte da família Bunker Kamikaze Tattoo e sou muito grato pela liberdade de realizar a minha arte neste lugar.</p>
+		<main >
+			<section class="container">	
+			<div class="informacoes">						
+				<h1 class="titulo">Espaço Jubart</h1>
+				<p class="descricao"> 
+					O Espaço (sem nome definido ainda) surgiu de um sonho de muleque de ter meu proprio espaço, sendo assim aqui esta o inicio de um sonho.
+				</p>
 				 <a href="https://www.instagram.com/jonastattoo_/">			 
 					 <button class="botao-trailer" >Instagram</button>
 				</a> 
 			</div>
-			<img class="mario" src="./src/imagens2/Jonas.svg" /> 
+		</section>
 
-			<div class="modal">
-				<div class="conteudo-modal">
-				<span class="fechar-modal">X</span>
-				<iframe id="video" width="560" height="315" src=""></iframe>
-				</div>
+		<section class="containergaleria" id="galeria">
+			<div class="informacoes">						
+				<h1 class="titulo">Galeria</h1><br>
+				<p class="descricao"> 
+					O Espaço (sem nome definido ainda) surgiu de um sonho de muleque de ter meu proprio espaço, sendo assim aqui esta o inicio de um sonho.
+				</p>				
 			</div>
+		</section>
+		
+		<section class="containermapa" id="local">
+			<div class="informacoes">						
+				<h1 class="titulo">Local</h1><br>
+				<p class="descricao"> 
+					Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável
+				</p>
+				<div class="container-mapa">
+
+					<iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110917.75331326285!2d-53.88527223964293!3d-29.685566681411427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9503cb5cf17a28d1%3A0xa983593e991c675a!2sPorto%20Sushi%20Delivery%20Express!5e0!3m2!1spt-BR!2sbr!4v1675277095473!5m2!1spt-BR!2sbr" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				
+				</div>
+			</div>		
+		</section>
+	
 		</main>
 	</body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
