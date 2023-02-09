@@ -1,0 +1,17 @@
+
+.titulo{
+
+    text-align: center;
+   
+}
+
+.carrossel img{
+
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    padding: 10px 20px;
+    display: inline-block;
+
+ 
+}
