@@ -25,12 +25,15 @@
     width: 25%;
     position: relative;
     transition: 2s;
+     border-radius: 30px;
+    
+   
 }
 .slide img{
-    width:  800px;
+    width:  60%;
     margin-top: 20px;
+    padding: 30px;
     
-
 }
 .manual-nav{
     position: absolute;
@@ -72,6 +75,11 @@
 #radio4:checked ~ .first{
     margin-left:  -75%;
 }
+#radio5:checked ~ .first{
+    margin-left:  -100%;
+}
+
+
 .navegation-auto div{
 
     border: 2px solid blue;
@@ -137,7 +145,7 @@
     }
     .slide img{
         width:  100%;
-        border-radius: 15px;
+        border-radius: 15px 15px 15px 15px;
     
     }
    

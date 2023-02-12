@@ -54,9 +54,10 @@
         height: calc(70vh);
         padding: 0 30px 30px;
         text-align: center;
+        margin-top: 10px;
     }
 
-
+   
     .galeria {
         max-width: 1440px;
         margin: 0 auto;
@@ -67,6 +68,13 @@
         text-align: center;
         background-color: #0a549186;
         justify-content: space-evenly;
+    }
+    .galeria .titulo{
+        color:#ffffff;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-top: 40px;
+       
     }
     .cabecalho{
         flex-wrap: wrap;
