@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins';
-    background-color: rgb(255, 0, 93);;
+    background-color: #e2c8e6
 }
 
 .cabecalho{
@@ -26,7 +26,7 @@ body{
 
 .cabecalho nav li a{
     font-weight: bold;
-    color: #ffffff;
+    color: rgb(255, 0, 93);
     font-size: 25px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -34,7 +34,10 @@ body{
 }
 
 .cabecalho nav li a:hover{
-    background-color: #555555;
+   
+    background-color: rgb(255, 0, 93);
+    color: #ffffff
+
 }
 
 .container{
@@ -48,13 +51,13 @@ body{
 }
 
 .container .titulo{
-    color:#ffffff;
+    color:rgb(255, 0, 93);;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 .container .imagem-titulo{
-    width: 328px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
 }
 
 .container .mario
@@ -63,14 +66,14 @@ body{
     border-radius: 20px;
 }
 .container .descricao{
-    color:#ffffff;
+    color:rgb(255, 0, 93);;
     font-size: 18px;
     margin: 30px 0;    
 }
 
 .container .botao-trailer{
-    background-color: #555555;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: rgb(255, 0, 93);;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -84,10 +87,12 @@ body{
 
 .container .botao-trailer:hover{
         transform: scale(1.1);
+        background-color: rgb(255, 0, 93);;;
+        color: #ffffff
 }
 
 .fundo-video{
-    background-color: #000000;
+    background-color: #e2c8e6;
     position: absolute;
     z-index: -1;
     width: 100vw;
@@ -100,6 +105,7 @@ body{
 
 .fundo-video .video{
     height: 100vh;   
+   
 }
 
 .fundo-video::after{
@@ -111,8 +117,8 @@ body{
     top:0;
     left:0;
 
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.404) 50%, rgba(0,0,0,1) 100%);
+    background: #e2c8e6;
+    background: linear-gradient(90deg, #e2c8e6, #e2c8e650 50%, #e2c8e6 100%);
 }
 
 .modal{
@@ -171,7 +177,7 @@ body{
 }
 
 .galeria .titulo{
-    color:#ffffff;
+    color: rgb(255, 0, 93);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
@@ -185,8 +191,16 @@ body{
     border-radius: 20px;
 }
 .galeria .descricao{
-    color:#ffffff;
+    color: rgb(255, 0, 93);
     font-size: 18px;
     margin: 30px 0;    
 
+}
+
+footer{
+    background-color: #e2c8e6;;
+    color: rgb(255, 0, 93);
+    text-align: center;
+    padding: 20px;
+    
 }

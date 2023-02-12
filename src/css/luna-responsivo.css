@@ -1,7 +1,7 @@
 @media(max-width: 1200px){
 
     body{
-        background-color: rgb(255, 0, 93);
+        background-color: #e2c8e6
     }
    
     .fundo-video{
@@ -27,13 +27,13 @@
     }
 
     .container .descricao{
-        color: #ffffff;
+        color: rgb(255, 0, 93);;
         text-align: center;
     }
 
     .container .botao-trailer{
-        background-color: #505050;
-        color: #ffffff;
+        background-color: #ffffff;
+        color: rgb(255, 0, 93);
     }
 }
 

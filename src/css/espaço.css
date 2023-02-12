@@ -1,7 +1,9 @@
+
 body{
     font-family: 'Poppins';
     background-color: #000000;
     overflow-x:  hidden;
+   
     
 }
 
@@ -148,11 +150,12 @@ body{
     border-radius: 10px;    
 }
 
-.modal inframe{
+.modal iframe{
     border-width: 0;
     width:  640px;
-    height: 60px;
+    height: 60px; 
 }
+
 
 .modal.aberto{
     opacity: 1;
@@ -161,8 +164,7 @@ body{
 /*----------------------------Galeria-----------------------------------*/
 
 .galeria{
-    max-width:  1440px;
-    
+    max-width:  1440px; 
     margin:  0 auto;
     display: flex;
     align-items: center;
@@ -182,6 +184,7 @@ body{
     margin-top: 140px;
    
 }
+
 .galeria .imagem-titulo{
     max-width: 300px; 
 }
