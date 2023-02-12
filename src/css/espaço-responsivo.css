@@ -1,0 +1,119 @@
+@media(max-width: 1200px){
+
+    body{
+        background-color: rgb(17, 17, 17);
+    }
+
+    .fundo-video{
+        display: none;
+    }
+
+    .container
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px
+    }  
+    
+    .container .mario{
+        max-width: 50%;
+    }
+   
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;       
+    }
+   
+
+    .container .descricao{
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer{
+        background-color: #1160a1;;
+        color: #ffffff;
+    }
+
+/*--------------------------------------------------------------------*/
+
+
+
+}
+
+@media (max-width: 500px){
+
+    .container{
+        max-width: 1440px;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(70vh);
+        padding: 0 30px 30px;
+        text-align: center;
+    }
+
+
+    .galeria {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        height: calc(70vh);
+        padding: 0 30px 30px;
+        text-align: center;
+        background-color: #0a549186;
+        justify-content: space-evenly;
+    }
+    .cabecalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    .cabecalho nav li a{
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: 0.2s;
+    }
+
+    .container .imagem-titulo{
+        max-width: 75%;
+    }
+
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+    width: 300px;
+    height: 169px;
+    }
+
+    iframe{
+
+        width: 350px !important;
+        height: 200px !important;
+
+    }
+}
+
+@media (max-width: 376px){
+
+        .modal #video{
+            width: 250px;
+            height: 140px;
+        }
+
+        .carrossel{
+    
+            overflow: hidden;
+        }
+}

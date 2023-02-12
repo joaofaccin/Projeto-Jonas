@@ -1,98 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="./src/Jubart/baleia-jonas.png" type="image/x-icon" >
-
+        <link rel="shortcut icon" href="./src/img/baleia-jonas.png" type="image/x-icon" >
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/espaço.css">
+        <link rel="stylesheet" href="./src/css/espaço-responsivo.css">
 
-		<link rel="stylesheet" href="./src/css/reset.css">
-		<link rel="stylesheet" href="./src/css/estilos-espaço.css">
-		<link rel="stylesheet" href="./src/css/carrossel.css">
-		<link rel="stylesheet" href="./src/css/responsivo-espaço.css">
-		
-		<title>Espaço Jubart</title>
-	</head>
-	<body>
-		<div class="fundo-video">
-			<video class="video" autoplay loop muted>
-				<source src="./src/videos/Pexels Videos 2611250.mp4" type="video/mp4" />
-			</video>
-		</div>
-		<header class="cabecalho">			
-			<a>
-				<img class="logo" src="./src/Jubart/baleia-jonas.png" alt="logo chapéu Mario" />
-			</a>
-			<nav>
-				<ul class="menu">
-					<!-- <li><a href="index.html">Inicio</a></li> -->
-					<li><a href="#galeria"> Galeria</a></li>
-					<li><a href="#local">Onde</a></li>
-					<li><a href="luna.html">Luna</a></li>
-					<li><a href="jonas.html">Jonas</a></li>             
-				</ul>
-				
-			</nav>
-		</header>
-		<main >
-			<section class="container">	
-			<div class="informacoes">						
-				<h1 class="titulo">Espaço Jubart</h1>
-				<p class="descricao"> 
-					O Espaço (sem nome definido ainda) surgiu de um sonho de muleque de ter meu proprio espaço, sendo assim aqui esta o inicio de um sonho.
-				</p>
-				 <a href="https://www.instagram.com/jonastattoo_/">			 
-					 <button class="botao-trailer" >Instagram</button>
-				</a> 
-			</div>
-		</section>
+        <title>Espaço Jubart</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/img/Pexels Videos 2611250.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <header class="cabecalho">			
+        <a>
+            <img class="logo" src="./src/img/baleia-jonas.png" alt="logo" />
+        </a>
+        <nav>
+            <ul class="menu">               
+                <li><a href="#galeria"> Galeria</a></li>
+                <li><a href="#local">Onde</a></li>
+                <li><a href="luna.html">Luna</a></li>
+                <li><a href="jonas.html">Jonas</a></li>             
+            </ul>           
+        </nav>
+    </header>
+    <div class="container">	
+        <div class="informacoes">						
+            <h1 class="titulo">Espaço Jubart</h1>
+            <p class="descricao"> 
+                O Espaço (sem nome definido ainda) surgiu de um sonho de muleque de ter meu proprio espaço, sendo assim aqui esta o inicio de um sonho.
+            </p>
+             <a href="https://www.instagram.com/jonastattoo_/">			 
+                 <button class="botao-trailer" >Instagram</button>
+            </a> 
+        </div>
+    </div>
+    <div class="galeria" id="galeria">
+        <div class="informacoes">						
+            <h1 class="titulo">Galeria</h1><br>
+            <div class="carrossel">
+                <ul>
+                    <li>
+                        <img src="./src/imgcarrossel/Jonas.jpg" >
+                    </li>
+                    <li>
+                        <img src="./src/imgcarrossel/Jonas.jpg" >
+                    </li>
+                    <li>
+                        <img src="./src/imgcarrossel/Jonas.jpg" >
+                    </li>
+                    <li>
+                        <img src="./src/imgcarrossel/Jonas.jpg" >
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<div class="containermapa" id="local" >
+        <div class="informacoes">						
+            <h1 class="titulo">Local</h1><br>
+            <p class="descricao"> 
+                Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável
+            </p>
+            
+            <div class="container-mapa">
 
-		<section class="containergaleria" id="galeria">
-			<div class="informacoes">						
-				<h1 class="titulo">Galeria</h1><br>
-				<div class="carrossel">
-					<ul>
-						<li>
-							<img src="./src/Jonas/Jonas.jpg" >
-						</li>
-						<li>
-							<img src="./src/Jonas/Jonas.jpg" >
-						</li>
-						<li>
-							<img src="./src/Jonas/Jonas.jpg" >
-						</li>
-						<li>
-							<img src="./src/Jonas/Jonas.jpg" >
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		
-		<section class="containermapa" id="local" >
-			<div class="informacoes">						
-				<h1 class="titulo">Local</h1><br>
-				<p class="descricao"> 
-					Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável
-				</p>
-				
-				<div class="container-mapa">
+                <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110917.75331326285!2d-53.88527223964293!3d-29.685566681411427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9503cb5cf17a28d1%3A0xa983593e991c675a!2sPorto%20Sushi%20Delivery%20Express!5e0!3m2!1spt-BR!2sbr!4v1675277095473!5m2!1spt-BR!2sbr" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				
+            </div>
+        </div>		
+    </div>		 
+</body>
+<footer>
+    <p>&copy; JoaoFaccin</p>
+</footer>
 
-					<iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110917.75331326285!2d-53.88527223964293!3d-29.685566681411427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9503cb5cf17a28d1%3A0xa983593e991c675a!2sPorto%20Sushi%20Delivery%20Express!5e0!3m2!1spt-BR!2sbr!4v1675277095473!5m2!1spt-BR!2sbr" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				
-				</div>
-			</div>		
-		</section>		
-		</main>
-		<script src="./src/js/js.js"></script>
-	</body>
-	<footer>
-		<p>&copy; JoaoFaccin</p>
-	</footer>
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
